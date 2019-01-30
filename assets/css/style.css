@@ -1,6 +1,5 @@
 body {
-    font-family: 'Questrial', sans-serif;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
 }
 
 h1 {
@@ -11,50 +10,55 @@ h1 {
 /* RESUSABLE */
 
 .section-heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+.angled-box {
+    background: linear-gradient(60deg
+        ,rgb(235, 211, 76) 0%
+        ,rgb(235, 211, 76) 30%
+        ,rgb(241, 179, 0) 30%
+        ,rgb(241, 179, 0) 70%
+        ,rgb(239, 103, 0) 70%
+    );
+    height: 300px;
+    width: 100%;
+    clear: both;
+}
+
+.icon {
+    font-size: 6rem;
+    position: absolute;
+    right: 50%;
+    bottom: 3%;
+    color: rgb(47, 53, 55);
 }
 
 /* LANDING PAGE */
 
 .landing {
     height: 100vh;
-    background-image: url(../imgs/arrow-hero.jpeg);
     background-size: cover;
+    background-position: center;
+    background-image: url(../imgs/paint-gray-hero.jpeg);
     z-index: 100;
 }
 
-.title {
+
+.landing-text {
     position: absolute;
-}
-
-.title-line-1 {
-    top: 9%;
-    left: 18%;
-    font-size: 3rem;
-    color: rgb(197, 189, 189)
-}
-
-.title-line-2 {
-    top: 20.5%;
-    left: 34%;
-    font-size: 3rem;
-    color: rgb(47, 53, 55);
-}
-
-.title-line-3 {
-    top: 36%;
-    left: 28%;
-    font-size: 2rem;
-    color: rgb(98, 103, 105);
-}
-
-.title-line-4 {
-    top: 47.5%;
-    left: 21%;
-    font-size: 2rem;
-    color: rgb(98, 103, 105);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 6rem;
+    width: 80%;
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgba(116, 56, 0, 0.767);
+    mix-blend-mode: color-burn;
 }
 
 /* ABOUT */
@@ -62,5 +66,12 @@ h1 {
 .section-about {
     height: 100vh;
     background-color: #f5f5f5;
-    margin-top: -2%;
+    margin-top: -40px;
 }
+
+.section-about p {
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+}
+
