@@ -2,18 +2,132 @@ body {
     letter-spacing: 3px;
 }
 
-h1 {
+h1, h2, h3 {
     display: inline-block;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.container-fluid {
+    padding-left: 0!important;
+    padding-right: 0!important;
 }
 
 
 /* RESUSABLE */
 
 .section-heading {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
-    padding-top: 80px;
+    padding: 50px 0 30px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e7b11a;
 }
+
+.heading-secondary {
+    font-size: 2rem;
+    margin: 80px 0;
+}
+
+.yellow-line {
+    border-bottom: 4px solid #e7b11a;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* ICONS */
+
+.icon {
+    font-size: 8rem;
+    position: absolute;
+    right: 50%;
+    bottom: 0%;
+    color: rgba(116, 56, 0, 0.767);
+    mix-blend-mode: color-burn;
+}
+
+.tech-icon {
+    font-size: 7rem;
+    color: #e7b11a;
+}
+
+.ex {
+    position: absolute;
+    top: -9%;
+    right: 45%;
+}
+
+
+
+/* LANDING PAGE */
+
+.section-landing {
+    height: 100vh;
+    background-position: center;
+    background-image: url(../imgs/paint-gray-hero.jpeg);
+    background-size: cover;
+    z-index: 100;
+}
+
+
+.landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 6rem;
+    width: 80%;
+    font-size: 5.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgba(99, 48, 0, 0.767);
+    mix-blend-mode: color-burn;
+}
+
+/* ABOUT */
+
+.section-about {
+    height: 100vh;
+    background-color: #e2e2e2;
+    border-top: 3px solid rgb(221, 185, 23);
+}
+
+.about-p {
+    padding-left: 100px;
+}
+
+.about-img {
+    object-fit: contain;
+    height: 99.7vh;
+    object-position: top;
+}
+
+/* TECH */
+
+.section-tech {
+    border-top: 3px solid rgb(221, 185, 23);
+    height: 100vh;
+    background-color: #919191;
+}
+
+.tech-row {
+    margin-bottom: 100px;
+}
+
+.tech-icon-box {
+    padding: 10% 0;
+    width: 70%;
+    height: auto;
+}
+
+
+/* ANGLED BOX */
 
 .angled-box {
     background: linear-gradient(60deg
@@ -27,51 +141,3 @@ h1 {
     width: 100%;
     clear: both;
 }
-
-.icon {
-    font-size: 6rem;
-    position: absolute;
-    right: 50%;
-    bottom: 3%;
-    color: rgb(47, 53, 55);
-}
-
-/* LANDING PAGE */
-
-.landing {
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../imgs/paint-gray-hero.jpeg);
-    z-index: 100;
-}
-
-
-.landing-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 6rem;
-    width: 80%;
-    font-size: 6rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: rgba(116, 56, 0, 0.767);
-    mix-blend-mode: color-burn;
-}
-
-/* ABOUT */
-
-.section-about {
-    height: 100vh;
-    background-color: #f5f5f5;
-    margin-top: -40px;
-}
-
-.section-about p {
-    text-align: center;
-    font-size: 1.4rem;
-    letter-spacing: 3px;
-}
-
