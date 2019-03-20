@@ -43,6 +43,9 @@ p {
     margin-bottom: 40px;
 }
 
+/* BOOTSTRAP */
+
+
 /* ICONS */
 
 .icon {
@@ -118,6 +121,11 @@ p {
     object-fit: contain;
     height: 99.7vh;
     object-position: top;
+}
+
+/* PROJECETS */
+
+.section-projects {
 }
 
 /* TECH */
