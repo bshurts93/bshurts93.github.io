@@ -1,23 +1,94 @@
 /* -------------------- */
 /* -------GLOBAL------- */
 /* -------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+section {
+    padding: 2rem 0;
+}
 
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 /* ------------------- */
 /* ------LANDING------ */
 /* ------------------- */
+#section-landing {
+    background-image: url("../imgs/paint-gray-hero.jpeg");
+    /* background-color: rgb(199, 77, 61); */
+    background-size: cover;
+    background-position: center;
+    /* background-blend-mode: hard-light; */
+    height: 95vh;
+}
+
+#landing-text {
+    width: 60%;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;    
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(121, 38, 0);
+    mix-blend-mode: color-burn;
+}
 
 
+/* --------------------------- */
+/* ------PORTFOLIO INTRO------ */
+/* --------------------------- */
 
-/* --------------------- */
-/* ------PORTFOLIO------ */
-/* --------------------- */
+#section-portfolio-intro {
+    background-color: rgb(199, 197, 197);
+}
 
 
+/* ------------------- */
+/* ------PORTFOLIO---- */
+/* ------------------- */
+#section-portfolio {
+    background-color: gainsboro;
+}
 
 
+.description,
+.image-div {
+    display: inline-block;
+}
 
+.description {
+    width: 30%;
+}
 
+.image-div {
+    width: 65%;
+}
+
+.project-image {
+    height: 400px;
+    float: right;
+}
 
