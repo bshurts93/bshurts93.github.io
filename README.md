@@ -8,4 +8,6 @@ Deployed Projects:
                                                                         
 - Foodbanx: https://bshurts93.github.io/Foodbanx/                       
 - Train Scheduler: https://bshurts93.github.io/Train_Scheduler/         
-- The Office Trivia: https://bshurts93.github.io/TriviaGame/                                                                  -------------------------------------------------------------------------
+- The Office Trivia: https://bshurts93.github.io/TriviaGame/     
+
+-------------------------------------------------------------------------
