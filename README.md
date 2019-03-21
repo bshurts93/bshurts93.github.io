@@ -4,10 +4,8 @@ Hey there. I'm Ben, and I'm a fullstack student at Vanderbilt University's Codin
 
 
 -------------------------------------------------------------------------
-Deployed Projects:                                                      |
-                                                                        |
-- Foodbanx: https://bshurts93.github.io/Foodbanx/                       |
-- Train Scheduler: https://bshurts93.github.io/Train_Scheduler/         |
-- The Office Trivia: https://bshurts93.github.io/TriviaGame/            |
-                                                                        |
--------------------------------------------------------------------------
+Deployed Projects:                                                      
+                                                                        
+- Foodbanx: https://bshurts93.github.io/Foodbanx/                       
+- Train Scheduler: https://bshurts93.github.io/Train_Scheduler/         
+- The Office Trivia: https://bshurts93.github.io/TriviaGame/                                                                  -------------------------------------------------------------------------
