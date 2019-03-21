@@ -1,164 +1,23 @@
-body {
-    letter-spacing: 3px;
-}
-
-h1, h2, h3 {
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-
-p {
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-}
-
-.container-fluid {
-    padding-left: 0!important;
-    padding-right: 0!important;
-}
-
-
-/* RESUSABLE */
-
-.section-heading {
-    font-size: 4rem;
-    text-align: center;
-    padding: 50px 0 30px 0;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #e7b11a;
-}
-
-.heading-secondary {
-    font-size: 2rem;
-    margin: 80px 0;
-    font-weight: 900;
-}
-
-.yellow-line {
-    border-bottom: 4px solid #e7b11a;
-    width: 150px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
-
-/* BOOTSTRAP */
-
-
-/* ICONS */
-
-.icon {
-    font-size: 8rem;
-    position: absolute;
-    right: 50%;
-    bottom: 0%;
-    color: rgba(116, 56, 0, 0.767);
-    mix-blend-mode: luminosity;
-}
-
-.arrow-down {
-    bottom: 20%;
-    right: 48.5%;
-}
-
-.tech-icon {
-    font-size: 7rem;
-    color: #e7b11a;
-}
-
-.ex {
-    position: absolute;
-    top: -9%;
-    right: 45%;
-}
+/* -------------------- */
+/* -------GLOBAL------- */
+/* -------------------- */
 
 
 
-/* LANDING PAGE */
 
-.section-landing {
-    height: 100vh;
-    background-position: center;
-    background-image: url(../imgs/red_green_wall.jpg);
-    background-size: cover;
-    z-index: 100;
-}
-
-
-.landing-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 6rem;
-    width: 80%;
-    font-size: 5.5rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: rgb(35, 116, 35);
-    mix-blend-mode: luminosity;
-}
-
-#quote-icon {
-    mix-blend-mode: normal;
-    color: #ffbb00;
-}
-
-/* ABOUT */
-
-.section-about {
-    height: 100vh;
-    background-color: #ebdec2;
-}
-
-.about-p {
-    padding: 0 100px;
-    
-}
-
-.about-img {
-    object-fit: contain;
-    height: 99.7vh;
-    object-position: top;
-}
-
-/* PROJECETS */
-
-.section-projects {
-}
-
-/* TECH */
-
-.section-tech {
-    border-top: 3px solid rgb(221, 185, 23);
-    height: 100vh;
-    background-color: #919191;
-}
-
-.tech-row {
-    margin-bottom: 100px;
-}
-
-.tech-icon-box {
-    padding: 10% 0;
-    width: 70%;
-    height: auto;
-}
+/* ------------------- */
+/* ------LANDING------ */
+/* ------------------- */
 
 
 
-/* ANGLED BOX */
+/* --------------------- */
+/* ------PORTFOLIO------ */
+/* --------------------- */
 
-.angled-box {
-    background: linear-gradient(60deg
-        ,rgb(235, 211, 76) 0%
-        ,rgb(235, 211, 76) 30%
-        ,rgb(241, 179, 0) 30%
-        ,rgb(241, 179, 0) 70%
-        ,rgb(239, 103, 0) 70%
-    );
-    height: 300px;
-    width: 100%;
-    clear: both;
-}
+
+
+
+
+
+
