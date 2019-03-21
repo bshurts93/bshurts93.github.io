@@ -37,6 +37,7 @@ a:hover,
 a:focus {
     background-color: rgb(233, 105, 0);
     color: #fff;
+    box-shadow: 0 0.2rem 0.5rem rgba(119, 51, 19, 0.774);
 }
 
 section { padding: 2rem 0; }
@@ -80,7 +81,8 @@ section { padding: 2rem 0; }
 /* --------------------------- */
 
 #section-portfolio-intro {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(246, 246, 246);
+    padding: 4rem 0;
 }
 
 #section-portfolio-intro .container {
@@ -120,5 +122,9 @@ section { padding: 2rem 0; }
 .project-image {
     height: 300px;
     float: right;
+    transition: 0.4s;
+}
+.project-image:hover {
+    transform: translateY(-10px);
 }
 
