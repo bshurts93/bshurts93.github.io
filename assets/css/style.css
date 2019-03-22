@@ -73,6 +73,7 @@ section { padding: 2rem 0; }
     font-weight: 600;
     color: rgb(105, 33, 0);
     mix-blend-mode: color-burn;
+    animation-duration: 1.5s;
 }
 
 
