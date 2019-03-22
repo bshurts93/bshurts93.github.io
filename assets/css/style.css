@@ -73,7 +73,7 @@ section { padding: 2rem 0; }
     font-weight: 600;
     color: rgb(105, 33, 0);
     mix-blend-mode: color-burn;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 
@@ -81,22 +81,18 @@ section { padding: 2rem 0; }
 /* ------PORTFOLIO INTRO------ */
 /* --------------------------- */
 
-#section-portfolio-intro {
-    background-color: rgb(246, 246, 246);
-    padding: 4rem 0;
-}
+#section-portfolio-intro { background-color: rgb(246, 246, 246); padding: 4rem 0; }
 
-#section-portfolio-intro .container {
-    width: 50%;
+#section-portfolio-intro .container { width: 50%; }
 
-}
+/* ANIMATE */
+
+.intro-2 { animation-delay: .6s; }
 
 /* ------------------- */
 /* ------PORTFOLIO---- */
 /* ------------------- */
-#section-portfolio {
-    background-color: gainsboro;
-}
+#section-portfolio { background-color: gainsboro; }
 
 .project-box {
     position: relative;
@@ -129,3 +125,7 @@ section { padding: 2rem 0; }
     transform: translateY(-10px);
 }
 
+/* ------------------- */
+/* ------ABOUT ME----- */
+/* ------------------- */
+#section-about { background-color: rgb(246, 246, 246); padding: 4rem 0; }
