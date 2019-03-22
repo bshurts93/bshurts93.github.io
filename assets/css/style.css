@@ -25,6 +25,7 @@ a {
     color: #fff;
     font-size: .9rem;
     border: 2px rgb(233, 105, 0) solid;
+    background-color: #fff8ef;
     border-radius: 7px;
     transition: .4s;
 }
@@ -40,13 +41,15 @@ a:focus {
     box-shadow: 0 0.2rem 0.5rem rgba(119, 51, 19, 0.774);
 }
 
-section { padding: 2rem 0; }
+section { padding: 6rem 0; }
 
 
 .container {
     width: 80%;
     margin: 0 auto;
 }
+
+.paragraph { width: 65%; margin: 0 auto; }
 
 
 /* ------------------- */
@@ -81,9 +84,8 @@ section { padding: 2rem 0; }
 /* ------PORTFOLIO INTRO------ */
 /* --------------------------- */
 
-#section-portfolio-intro { background-color: rgb(246, 246, 246); padding: 4rem 0; }
+#section-portfolio-intro { background-color: rgb(246, 246, 246); }
 
-#section-portfolio-intro .container { width: 50%; }
 
 /* ANIMATE */
 
@@ -109,7 +111,7 @@ section { padding: 2rem 0; }
     position: absolute;
     top: 35%;
     height: 100px;
-    margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
+    margin-top: -50px; 
 }
 
 .image-div {
@@ -128,4 +130,26 @@ section { padding: 2rem 0; }
 /* ------------------- */
 /* ------ABOUT ME----- */
 /* ------------------- */
-#section-about { background-color: rgb(246, 246, 246); padding: 4rem 0; }
+#section-about { background-color: rgb(246, 246, 246); }
+
+/* ------------------- */
+/* ------CONTACT------ */
+/* ------------------- */
+.email-btn, .contact-btn {
+    color: rgb(233, 105, 0);
+}
+
+.email-btn {
+    width: 12rem;
+}
+
+#contact-icons {
+    margin: 0 auto;
+    display: block;
+}
+
+.contact-btn {
+    width: 4rem;
+    display: inline-block;
+    margin: 0 auto;
+}
