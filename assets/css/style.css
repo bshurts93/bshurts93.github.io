@@ -68,7 +68,7 @@ section { padding: 6rem 0; }
 #landing-text {
     width: 50%;
     position: absolute;
-    top: 30%;
+    top: 34%;
     left: 10%;
     right: 0;
     margin-left: auto;
@@ -140,21 +140,24 @@ section { padding: 6rem 0; }
 /* ------------------- */
 /* ------CONTACT------ */
 /* ------------------- */
+#section-contact {
+    text-align: center;
+}
+
 .email-btn, .contact-btn {
     color: rgb(233, 105, 0);
 }
 
-.email-btn {
-    width: 12rem;
+.email-btn { width: 50%; }
+
+
+.contact-btn {
+    width: 12.5%;
+    display: inline-block;
+    margin: 0 1rem;
 }
 
 #contact-icons {
     margin: 0 auto;
     display: block;
-}
-
-.contact-btn {
-    width: 4rem;
-    display: inline-block;
-    margin: 0 auto;
 }
