@@ -28,4 +28,3 @@ animateProjects(".foodbanx");
 animateProjects(".train");
 animateProjects(".trivia")
 
-
