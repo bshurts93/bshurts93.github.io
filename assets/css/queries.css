@@ -5,26 +5,35 @@
     p{ font-size: .9rem; }
     .paragraph { width: 90%; font-size: 1.3rem; }
 
+    #section-landing {
+        height: 80vh;
+    }
+
     #landing-text {
         width: 80%;
-        top: 24%;
+        top: 18%;
         left: 5%;
         right: 0;
+        line-height: 45px;
         margin-left: auto;
         margin-right: auto;    
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
 
     .project-image {
-        height: 150px;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
         display: inline-block;
         transition: 0.4s;
+        padding: 1rem 0;
     }
 
     .project-box {
         padding: 1rem;
+        padding-top: 7rem;
+        text-align: center;
     }
 
     .description {
@@ -32,8 +41,93 @@
         width: 90%;
     }
 
+    .description p,
+    .description h3 {
+        text-align: left;
+        padding-bottom: .5rem;
+    }
+
+    .project-btns a {
+        margin: 0.5rem;
+        width: 60%;
+        padding: 1.5rem;
+    }
+
+    .project-svg {
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        left: 12px;
+        top: 12px;
+    }
+
+    .contact-btn {
+        margin: 0.5rem;
+    }
+
+    .contact-svg {
+        display: none;
+    }
+
 
 }
+
+
+/* LANDING QUERIES */
+
+@media only screen and (max-width : 420px) {
+
+    #section-landing {
+        height: 80vh;
+    }
+
+    #landing-text {
+        width: 80%;
+        top: 15%;
+        left: 5%;
+        right: 0;
+        line-height: 60px;
+        margin-left: auto;
+        margin-right: auto;    
+        font-size: 3.4rem;
+    }
+}
+
+@media only screen and (max-width : 376px) {
+
+    #section-landing {
+        height: 80vh;
+    }
+
+    #landing-text {
+        width: 80%;
+        top: 15%;
+        left: 5%;
+        right: 0;
+        line-height: 55px;
+        margin-left: auto;
+        margin-right: auto;    
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width : 320px) {
+
+    #section-landing {
+        height: 80vh;
+    }
+
+    #landing-text {
+        width: 80%;
+        top: 18%;
+        left: 5%;
+        right: 0;
+        line-height: 45px;
+        margin-left: auto;
+        margin-right: auto;    
+        font-size: 2.5rem;
+    }
+}
+
     
     /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
